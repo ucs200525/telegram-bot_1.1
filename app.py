@@ -63,7 +63,7 @@ def update_excel(file_path, sunrise_today, sunset_today, sunrise_tomorrow):
 def save_excel_range_as_image(excel_file_path, output_image_path, sheet_name):
     try:
         result = subprocess.run(
-            ['node', 'js/excel_to_image.js', excel_file_path, sheet_name, output_image_path],
+            ['node', 'excel_to_image.js', excel_file_path, sheet_name, output_image_path],
             capture_output=True, text=True
         )
         if result.returncode == 0:
