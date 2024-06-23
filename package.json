@@ -1,0 +1,15 @@
+{
+  "name": "excel-to-image",
+  "version": "1.0.0",
+  "description": "Convert Excel to Image with styles",
+  "main": "excel_to_image.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "exceljs": "^4.2.1",
+    "puppeteer": "^10.4.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
